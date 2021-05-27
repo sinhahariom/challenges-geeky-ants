@@ -1,0 +1,28 @@
+.App{
+  height: 100vh;
+  width:100vw;
+  background-color: rgb(25, 26, 53);
+  .items-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    color: white;
+    label{
+      margin-right: 1rem;
+    }
+    select{
+      margin-right: 1rem;
+    }
+    input{
+      margin-right: 1rem;
+    }
+  }
+  button{
+    margin-left: 10rem;
+    color: white;
+    min-width: 3rem;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
